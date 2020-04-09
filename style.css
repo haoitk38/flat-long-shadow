@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+
+}
+
+body {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: repeating-linear-gradient(#36d1dc, #5b86e5);
+}
+
+#text {
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    outline: none;
+    width: 100%;
+    font-size: 10em;
+    text-align: center;
+    text-shadow: 1px 1px 0 #5b86e5;
+}

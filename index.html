@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="text" contenteditable="">Hello</div>
+    <script type="text/javascript">
+        var text = document.getElementById('text');
+        var shadow = '';
+        for (let index = 0; index < 30; index++) {
+            shadow += (shadow ? ',' : '') + index * 1 + 'px ' + index * 1 + 'px 0 #5b86e5';
+        }
+        text.style.textShadow = shadow;
+    </script>
+</body>
+
+</html>
